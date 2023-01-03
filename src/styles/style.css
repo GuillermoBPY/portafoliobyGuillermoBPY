@@ -22,7 +22,6 @@ html {
 }
 body {
   height: 100%;
-  
 }
 
 h1 {
@@ -44,7 +43,6 @@ p {
 a {
   text-decoration: none;
   color: inherit;
-  
 }
 li {
   list-style: none;
@@ -136,24 +134,22 @@ img {
 .porfolio__home--navbar--menu li {
   padding: 2rem;
   border: 1px solid transparent;
-  transition: background-color 0.5s,
-  color 0.5s,transform 0.3s;
+  transition: background-color 0.5s, color 0.5s, transform 0.3s;
   width: 50vw;
   font-weight: 600;
 }
-.porfolio__home--navbar--menu li:hover{
+.porfolio__home--navbar--menu li:hover {
   color: var(--Verydarkcyan);
   transform: translateY(-5px);
-  transition: color 0.5s, transform 0.3s,background-color 0.5s;
+  transition: color 0.5s, transform 0.3s, background-color 0.5s;
   background-color: #e7e1de;
 }
 
-.porfolio__home--navbar--menu li:active{
+.porfolio__home--navbar--menu li:active {
   transform: translateY(5px);
-  transition:transform 0.3s;
+  transition: transform 0.3s;
   background-color: var(--white);
   border: 1px solid var(--Verydarkcyan);
-  
 }
 
 .porfolio__home--socialicons {
@@ -362,7 +358,6 @@ img {
   gap: 3rem;
   width: 100%;
   padding: 0 3rem;
-
 }
 
 .porfolio__contact figure {
@@ -400,8 +395,8 @@ img {
 
 .student img {
   display: inline-block;
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   margin: 0px 5px;
 }
 
@@ -414,4 +409,20 @@ img {
   border-radius: 50%;
   left: -65px;
   top: 80px;
+}
+
+.hearticon {
+  animation: scale-up-center 1s cubic-bezier(0.5, 0.575, 0.565, 1.1) infinite
+    both;
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
