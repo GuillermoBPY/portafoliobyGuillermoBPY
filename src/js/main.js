@@ -6,11 +6,20 @@ const menuList = document.querySelectorAll(".porfolio__home--navbar--menu li");
 
 menuIcon.addEventListener("click", function () {
   menu.classList.toggle("menushow");
-  menu.classList.value.includes("menushow")
-    ? (document.getElementById("hambmenuicon").src="./src/img/icons/closemenu.svg")
-    : (document.getElementById("hambmenuicon").src="./src/img/icons/openmenu.svg");
+  changeMenu()
 });
 
 menuList.forEach(e => { e.addEventListener("click",function(){
   menu.classList.remove("menushow");
+  changeMenu()
 })})
+
+
+
+
+
+function changeMenu (){
+  menu.classList.value.includes("menushow")
+    ? (document.getElementById("hambmenuicon").src="./src/img/icons/closemenu.svg")
+    : (document.getElementById("hambmenuicon").src="./src/img/icons/openmenu.svg");
+}
