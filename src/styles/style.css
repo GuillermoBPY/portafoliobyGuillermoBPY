@@ -630,7 +630,7 @@ img {
   .porfolio__portfolio figure:nth-child(4) {
     grid-column: 2/3;
     grid-row: 2/3;
-    transform: translateY(-150px);
+    transform: translateY(-130px);
   }
 
   .porfolio__portfolio--info {
