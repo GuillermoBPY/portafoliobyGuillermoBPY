@@ -634,13 +634,12 @@ img {
   }
 
   .porfolio__portfolio--info {
-   align-self: center;
+    align-self: center;
   }
   .porfolio__portfolio span {
     height: 60%;
     width: 100vw;
   }
-
 
   .porfolio__contact {
     padding: 2rem 14rem 4rem;
