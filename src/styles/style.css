@@ -82,22 +82,7 @@ img {
   width: 35px;
   height: 35px;
 }
-#hambmenuicon:active{
-  animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
 
-@keyframes rotate-in-center {
-  0% {
-    -webkit-transform: rotate(-360deg);
-    transform: rotate(-360deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-}
 .porfolio__home--navbar {
   position: fixed;
   top: 0;
@@ -434,12 +419,12 @@ img {
     both;
 }
 
-.codigogithub{
-padding-top: 2rem;
-color: black;
-transition: scale 0.5s;
+.codigogithub {
+  padding-top: 2rem;
+  color: black;
+  transition: scale 0.5s;
 }
-.codigogithub:hover{
+.codigogithub:hover {
   scale: 1.2;
 }
 @keyframes scale-up-center {
@@ -656,6 +641,4 @@ transition: scale 0.5s;
     width: 350px;
     height: 350px;
   }
-  
-
 }
